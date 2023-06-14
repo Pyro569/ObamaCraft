@@ -1,3 +1,9 @@
 {
-  "item.obamacraft.obama": "Obama"
+  "item.obamacraft.obama": "Obama",
+  "item.obamacraft.obamasoul": "Soul of Obama",
+
+  "block.obamacraft.obamium": "Obamium",
+  "block.obamacraft.obamablock": "Obama Block",
+
+  "itemGroup.obamacraftTab": "ObamaCraft"
 }

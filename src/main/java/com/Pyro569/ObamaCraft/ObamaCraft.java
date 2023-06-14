@@ -2,6 +2,7 @@ package com.Pyro569.ObamaCraft;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.loot.LootTable;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -43,6 +44,7 @@ public class ObamaCraft
 
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         com.Pyro569.ObamaCraft.item.ModItems.register(eventBus);
+        com.Pyro569.ObamaCraft.block.ModBlocks.register(eventBus);
     }
 
     private void setup(final FMLCommonSetupEvent event)
