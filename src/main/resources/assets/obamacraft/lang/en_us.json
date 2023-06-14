@@ -1,9 +1,23 @@
 {
   "item.obamacraft.obama": "Obama",
   "item.obamacraft.obamasoul": "Soul of Obama",
+  "item.obamacraft.obamasword": "Obama Sword",
+  "item.obamacraft.beautifulwords": "Beautiful Words",
+  "item.obamacraft.constitution": "Constitution",
+  "item.obamacraft.dollarbill": "Dollar Bill",
+  "item.obamacraft.penny": "Penny",
+  "item.obamacraft.nickel": "Nickel",
+  "item.obamacraft.dime": "Dime",
+  "item.obamacraft.quarter": "Quarter",
+  "item.obamacraft.obamiumingot": "Obamium Ingot",
 
   "block.obamacraft.obamium": "Obamium",
   "block.obamacraft.obamablock": "Obama Block",
+  "block.obamacraft.freedomblock": "Freedom Block",
+  "block.obamacraft.obamabomb": "Obama Bomb",
 
-  "itemGroup.obamacraftTab": "ObamaCraft"
+  "itemGroup.obamacraftTab": "ObamaCraft",
+
+  "tooltip.obamacraft.obamiumingot": "Can be used to unlock Obama's full power",
+  "tooltip.obamacraft.obamabomb": "You have unlocked Obama's true power! Be careful!"
 }

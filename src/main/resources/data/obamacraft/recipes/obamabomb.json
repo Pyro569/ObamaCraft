@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "***",
+    "*X*",
+    "***"
+  ],
+  "key": {
+    "X": {
+      "item": "obamacraft:obamasoul"
+    },
+    "*":{
+      "item": "obamacraft:obamiumingot"
+    }
+  },
+  "result": {
+    "item": "obamacraft:obamabomb"
+  }
+}

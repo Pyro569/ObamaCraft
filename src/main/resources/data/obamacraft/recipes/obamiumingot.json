@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "obamacraft:obama"
+  },
+  "result": "obamacraft:obamiumingot",
+  "experience": 1.0,
+  "cookingtime": 100
+}

@@ -6,6 +6,7 @@ import com.Pyro569.ObamaCraft.item.ModItems;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -23,6 +24,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> OBAMIUM = registerBlock("obamium",() ->  new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(2).harvestTool(ToolType.PICKAXE).requiresCorrectToolForDrops().strength(5f)));
     public static final RegistryObject<Block> OBAMABLOCK = registerBlock("obamablock", () -> new Block(AbstractBlock.Properties.of(Material.STONE).harvestLevel(1).requiresCorrectToolForDrops().harvestTool(ToolType.PICKAXE).strength(99999f)));
+    public static final RegistryObject<Block> FREEDOMBLOCK = registerBlock("freedomblock", () -> new Block(AbstractBlock.Properties.of(Material.STONE).strength(999999999f)));
+    public static final RegistryObject<Block> OBAMABOMB = registerBlock("obamabomb", () -> new ObamaBomb(AbstractBlock.Properties.copy(Blocks.DIRT)));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
